@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="EnterpriseMasterSite.Master.cs" Inherits="EnterpriseMasterSite.Enterprise" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>ASL Reporting</title>
+    <link href="~/style.css" rel="stylesheet" type="text/css" runat="server" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="scriptManager" runat="server"></asp:ScriptManager>
+        <div class="TopBandDiv">
+            <img src="Images/ASL_Logo.png" class="Logo"/>
+        </div>
+        <div style="text-align:right">
+         
+        </div>
+        <div class="MenuDiv">
+            <table>
+                <tr>
+                    <td>
+                    </td>
+                    <td style="text-align:right; width:1%; white-space:nowrap;">
+                        <asp:Button ID="signoutB" runat="server" Text="Sign Out" OnClick="signoutB_Click" CssClass="Button" BorderStyle="None"/>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="cph" runat="server">
+               
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
