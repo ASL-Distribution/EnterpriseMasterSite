@@ -37,7 +37,7 @@ namespace EnterpriseMasterSite
         protected void managementLB_Click(object sender, EventArgs e)
         {
             string token = Authentication.SetToken(this);
-            Response.Redirect("/managementportal/login.aspx?token=" + token);
+            Server.Transfer("/managementportal/login.aspx?token=" + token);
         }
 
         protected void reportingLB_Click(object sender, EventArgs e)
