@@ -145,6 +145,7 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>UserEntities.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <Content Include="LandingPage.aspx" />
     <Content Include="UserEntities.edmx.diagram">
       <DependentUpon>UserEntities.edmx</DependentUpon>
     </Content>
@@ -180,6 +181,13 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LandingPage.aspx.cs">
+      <DependentUpon>LandingPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LandingPage.aspx.designer.cs">
+      <DependentUpon>LandingPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Log.cs">
       <DependentUpon>UserEntities.tt</DependentUpon>

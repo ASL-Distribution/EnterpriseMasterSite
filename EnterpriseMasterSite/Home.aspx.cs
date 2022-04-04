@@ -37,14 +37,13 @@ namespace EnterpriseMasterSite
         protected void managementLB_Click(object sender, EventArgs e)
         {
             string token = Authentication.SetToken(this);
-            //Response.Redirect("http://10.10.20.4/managementportal/login.aspx?token=" + token, true);
-            Server.Transfer("/managementportal/login.aspx");
+            Response.Redirect("http://10.10.20.4/managementportal/landingpage.aspx?token=" + token);
         }
 
         protected void reportingLB_Click(object sender, EventArgs e)
         {
             string token = Authentication.SetToken(this);
-            Response.Redirect("http://10.10.20.4/reporting/reporting/login.aspx?token=" + token, true);
+            Response.Redirect("http://10.10.20.4/reporting/reporting/landingpage.aspx?token=" + token);
         }
     }
 }
