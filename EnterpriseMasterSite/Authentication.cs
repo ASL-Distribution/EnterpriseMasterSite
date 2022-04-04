@@ -30,7 +30,7 @@ namespace EnterpriseMasterSite.Auth
 
             page.Session.Add("ASL_ENTERPRISE_USER", user);
 
-            page.Response.Redirect("Home.aspx");
+            page.Response.Redirect("Admin.aspx");
         }
 
         internal static string SetToken(Page page)
