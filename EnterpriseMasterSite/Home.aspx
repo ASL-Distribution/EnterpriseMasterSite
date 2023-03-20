@@ -12,5 +12,7 @@
         <asp:LinkButton ID="managementLB" runat="server" OnClick="managementLB_Click" Text="Management" />
         <br />
         <asp:LinkButton ID="reportingLB" runat="server" OnClick="reportingLB_Click" Text="Reporting" />
+        <br />
+        <asp:LinkButton ID="scanEventUtilityLB" runat="server" OnClick="scanEventUtilityLB_Click" Text="Reporting" />
     </div>
 </asp:Content>
