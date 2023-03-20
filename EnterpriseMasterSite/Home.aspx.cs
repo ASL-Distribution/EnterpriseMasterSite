@@ -57,5 +57,11 @@ namespace EnterpriseMasterSite
             string token = Authentication.SetToken(this);
             Response.Redirect("http://10.10.20.4/PickLabelWeb/landingpage.aspx?token=" + token);
         }
+
+        protected void exportingLB_Click(object sender, EventArgs e)
+        {
+            string token = Authentication.SetToken(this);
+            Response.Redirect("http://10.10.20.4/Exporting/Exporting/Landingpage.aspx?token=" + token);
+        }
     }
 }

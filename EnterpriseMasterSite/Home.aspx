@@ -16,5 +16,7 @@
         <asp:LinkButton ID="scanEventUtilityLB" runat="server" OnClick="scanEventUtilityLB_Click" Text="Scan Event Utility" />
         <br />
         <asp:LinkButton ID="pickLabelLB" runat="server" OnClick="pickLabelLB_Click" Text="Pick Label Printing" />
+        <br />
+        <asp:LinkButton ID="exportingLB" runat="server" OnClick="exportingLB_Click" Text="Exporting" />
     </div>
 </asp:Content>
