@@ -13,6 +13,8 @@
         <br />
         <asp:LinkButton ID="reportingLB" runat="server" OnClick="reportingLB_Click" Text="Reporting" />
         <br />
-        <asp:LinkButton ID="scanEventUtilityLB" runat="server" OnClick="scanEventUtilityLB_Click" Text="Reporting" />
+        <asp:LinkButton ID="scanEventUtilityLB" runat="server" OnClick="scanEventUtilityLB_Click" Text="Scan Event Utility" />
+        <br />
+        <asp:LinkButton ID="pickLabelLB" runat="server" OnClick="pickLabelLB_Click" Text="Pick Label Printing" />
     </div>
 </asp:Content>
