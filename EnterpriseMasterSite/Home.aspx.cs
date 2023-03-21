@@ -63,5 +63,29 @@ namespace EnterpriseMasterSite
             string token = Authentication.SetToken(this);
             Response.Redirect("http://10.10.20.4/Exporting/Exporting/Landingpage.aspx?token=" + token);
         }
+
+        protected void notificationLB_Click(object sender, EventArgs e)
+        {
+            string token = Authentication.SetToken(this);
+            Response.Redirect("http://10.10.20.4/NotificationPortal/Landingpage.aspx?token=" + token);
+        }
+
+        protected void containerLB_Click(object sender, EventArgs e)
+        {
+            string token = Authentication.SetToken(this);
+            Response.Redirect("http://10.10.20.4/ContainerLabels/Landingpage.aspx?token=" + token);
+        }
+
+        protected void fileFlowLB_Click(object sender, EventArgs e)
+        {
+            string token = Authentication.SetToken(this);
+            Response.Redirect("http://10.10.20.4/FileFlowUtility/FileFlowControlWebApplication/Landingpage.aspx?token=" + token);
+        }
+
+        protected void trackAndTraceLB_Click(object sender, EventArgs e)
+        {
+            string token = Authentication.SetToken(this);
+            Response.Redirect("http://10.10.20.4/TrackandTrace/Landingpage.aspx?token=" + token);
+        }
     }
 }
