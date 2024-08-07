@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#"  MasterPageFile="~/EnterpriseMasterSite.Master" AutoEventWireup="true" CodeFile="Login.aspx.cs" Inherits="EnterpriseMasterSite.Login" %>
+﻿<%@ Page Language="C#"  MasterPageFile="~/EnterpriseMasterSite.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="EnterpriseMasterSite.Login" %>
 
 <asp:Content ID="content" ContentPlaceHolderID="cph" runat="server">
     <div "ChildMainDiv">

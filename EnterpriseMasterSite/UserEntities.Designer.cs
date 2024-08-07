@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\theco\Dropbox\Consulting\Clients\ASL\Projects\Enterprise Msater Site\VS Projects\EnterpriseMasterSite\EnterpriseMasterSite\UserEntities.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\ahsanj\Source\Repos\ASL-Distribution\EnterpriseMasterSite\EnterpriseMasterSite\UserEntities.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

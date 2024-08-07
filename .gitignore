@@ -3,3 +3,8 @@
 ################################################################################
 
 /.vs
+/EnterpriseMasterSite/obj/Release/TempPE
+/EnterpriseMasterSite/obj/Release/edmxResourcesToEmbed
+/EnterpriseMasterSite/obj/Release
+/EnterpriseMasterSite/obj/Debug
+/EnterpriseMasterSite/bin
