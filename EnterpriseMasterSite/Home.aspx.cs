@@ -79,7 +79,7 @@ namespace EnterpriseMasterSite
         protected void fileFlowLB_Click(object sender, EventArgs e)
         {
             string token = Authentication.SetToken(this);
-            Response.Redirect("http://10.10.101.113/FileFlowUtility/Landingpage.aspx?token=" + token);
+            Response.Redirect("http://10.10.101.113/FileFlowWeb/Landingpage.aspx?token=" + token);
         }
 
         protected void trackAndTraceLB_Click(object sender, EventArgs e)
