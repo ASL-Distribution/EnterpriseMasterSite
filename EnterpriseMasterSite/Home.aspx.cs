@@ -37,55 +37,55 @@ namespace EnterpriseMasterSite
         protected void managementLB_Click(object sender, EventArgs e)
         {
             string token = Authentication.SetToken(this);
-            Response.Redirect("http://10.10.20.4/managementportal/landingpage.aspx?token=" + token);
+            Response.Redirect("http://10.10.101.113/managementportal/landingpage.aspx?token=" + token);
         }
 
         protected void reportingLB_Click(object sender, EventArgs e)
         {
             string token = Authentication.SetToken(this);
-            Response.Redirect("http://10.10.20.4/reporting/reporting/landingpage.aspx?token=" + token);
+            Response.Redirect("http://10.10.101.113/reporting/reporting/landingpage.aspx?token=" + token);
         }
 
         protected void scanEventUtilityLB_Click(object sender, EventArgs e)
         {
             string token = Authentication.SetToken(this);
-            Response.Redirect("http://10.10.20.4/ScanEventUtility/landingpage.aspx?token=" + token);
+            Response.Redirect("http://10.10.101.113/ScanEventUtility/landingpage.aspx?token=" + token);
         }
 
         protected void pickLabelLB_Click(object sender, EventArgs e)
         {
             string token = Authentication.SetToken(this);
-            Response.Redirect("http://10.10.20.4/PickLabelWeb/landingpage.aspx?token=" + token);
+            Response.Redirect("http://10.10.101.113/PickLabelWeb/landingpage.aspx?token=" + token);
         }
 
         protected void exportingLB_Click(object sender, EventArgs e)
         {
             string token = Authentication.SetToken(this);
-            Response.Redirect("http://10.10.20.4/Exporting/Exporting/Landingpage.aspx?token=" + token);
+            Response.Redirect("http://10.10.101.113/Exporting/Exporting/Landingpage.aspx?token=" + token);
         }
 
         protected void notificationLB_Click(object sender, EventArgs e)
         {
             string token = Authentication.SetToken(this);
-            Response.Redirect("http://10.10.20.4/NotificationPortal/Landingpage.aspx?token=" + token);
+            Response.Redirect("http://10.10.101.113/NotificationPortal/Landingpage.aspx?token=" + token);
         }
 
         protected void containerLB_Click(object sender, EventArgs e)
         {
             string token = Authentication.SetToken(this);
-            Response.Redirect("http://10.10.20.4/ContainerLabels/Landingpage.aspx?token=" + token);
+            Response.Redirect("http://10.10.101.113/ContainerLabels/Landingpage.aspx?token=" + token);
         }
 
         protected void fileFlowLB_Click(object sender, EventArgs e)
         {
             string token = Authentication.SetToken(this);
-            Response.Redirect("http://10.10.20.4/FileFlowUtility/FileFlowControlWebApplication/Landingpage.aspx?token=" + token);
+            Response.Redirect("http://10.10.101.113/FileFlowUtility/FileFlowControlWebApplication/Landingpage.aspx?token=" + token);
         }
 
         protected void trackAndTraceLB_Click(object sender, EventArgs e)
         {
             string token = Authentication.SetToken(this);
-            Response.Redirect("http://10.10.20.4/TT/TrackAndTrace.aspx");
+            Response.Redirect("http://10.10.101.113/TT/TrackAndTrace.aspx");
         }
     }
 }
