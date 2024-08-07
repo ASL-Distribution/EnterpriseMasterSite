@@ -43,7 +43,7 @@ namespace EnterpriseMasterSite
         protected void reportingLB_Click(object sender, EventArgs e)
         {
             string token = Authentication.SetToken(this);
-            Response.Redirect("http://10.10.101.113/reporting/reporting/landingpage.aspx?token=" + token);
+            Response.Redirect("http://10.10.101.113/ReportingPortal/landingpage.aspx?token=" + token);
         }
 
         protected void scanEventUtilityLB_Click(object sender, EventArgs e)
@@ -61,7 +61,7 @@ namespace EnterpriseMasterSite
         protected void exportingLB_Click(object sender, EventArgs e)
         {
             string token = Authentication.SetToken(this);
-            Response.Redirect("http://10.10.101.113/Exporting/Exporting/Landingpage.aspx?token=" + token);
+            Response.Redirect("http://10.10.101.113/ExportingPortal/Landingpage.aspx?token=" + token);
         }
 
         protected void notificationLB_Click(object sender, EventArgs e)
@@ -79,7 +79,7 @@ namespace EnterpriseMasterSite
         protected void fileFlowLB_Click(object sender, EventArgs e)
         {
             string token = Authentication.SetToken(this);
-            Response.Redirect("http://10.10.101.113/FileFlowUtility/FileFlowControlWebApplication/Landingpage.aspx?token=" + token);
+            Response.Redirect("http://10.10.101.113/FileFlowUtility/Landingpage.aspx?token=" + token);
         }
 
         protected void trackAndTraceLB_Click(object sender, EventArgs e)
