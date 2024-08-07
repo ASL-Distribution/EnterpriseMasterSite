@@ -11,7 +11,7 @@ namespace EnterpriseMasterSite.Database
     {
         private static string GetConnectionString()
         {
-            return "Server = asl-app2; Database = reporting; User Id = sa; Password = Icecool1; Connection Timeout=600";
+            return "Server = asl-cl-db1; Database = reporting; User Id = sa; Password = Icecool1; Connection Timeout=600";
         }
 
         private static string GetConnectionStringProduction()
