@@ -85,7 +85,7 @@ namespace EnterpriseMasterSite
         protected void trackAndTraceLB_Click(object sender, EventArgs e)
         {
             string token = Authentication.SetToken(this);
-            Response.Redirect("http://10.10.101.113/TT/TrackAndTrace.aspx");
+            Response.Redirect("http://10.10.101.113/TrackAndTrace/TrackAndTrace.aspx");
         }
     }
 }
