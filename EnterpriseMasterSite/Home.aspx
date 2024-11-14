@@ -26,5 +26,7 @@
         <asp:LinkButton ID="fileFlowLB" runat="server" OnClick="fileFlowLB_Click" Text="File Flow Utility" />
         <br />
         <asp:LinkButton ID="trackAndTraceLB" runat="server" OnClick="trackAndTraceLB_Click" Text="Track and Trace" />
+        <br />
+        <asp:LinkButton ID="ratingToolLB" runat="server" OnClick="ratingToolLB_Click" Text="Rating Tool" />
     </div>
 </asp:Content>

@@ -87,5 +87,11 @@ namespace EnterpriseMasterSite
             string token = Authentication.SetToken(this);
             Response.Redirect("http://10.10.101.113/TrackAndTrace/TrackAndTrace.aspx");
         }
+
+        protected void ratingToolLB_Click(object sender, EventArgs e)
+        {
+            string token = Authentication.SetToken(this);
+            Response.Redirect("http://10.10.101.113/RatingTool/Landingpage.aspx?token=" + token);
+        }
     }
 }
