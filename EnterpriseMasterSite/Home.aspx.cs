@@ -73,7 +73,7 @@ namespace EnterpriseMasterSite
         protected void containerLB_Click(object sender, EventArgs e)
         {
             string token = Authentication.SetToken(this);
-            Response.Redirect("http://10.10.101.113/ContainerLabels/Landingpage.aspx?token=" + token);
+            Response.Redirect("http://10.10.101.113/ContainerLabel/Landingpage.aspx?token=" + token);
         }
 
         protected void fileFlowLB_Click(object sender, EventArgs e)
