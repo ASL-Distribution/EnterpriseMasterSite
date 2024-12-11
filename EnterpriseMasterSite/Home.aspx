@@ -28,5 +28,7 @@
         <asp:LinkButton ID="trackAndTraceLB" runat="server" OnClick="trackAndTraceLB_Click" Text="Track and Trace" />
         <br />
         <asp:LinkButton ID="ratingToolLB" runat="server" OnClick="ratingToolLB_Click" Text="Rating Tool" />
+        <br />
+        <asp:LinkButton ID="packageRetrievalForShiptrackLB" runat="server" OnClick="packageRetrievalForShiptrackLB_Click" Text="Package Retrieval For Shiptrack" />
     </div>
 </asp:Content>

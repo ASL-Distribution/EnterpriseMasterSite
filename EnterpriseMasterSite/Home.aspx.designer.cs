@@ -112,5 +112,14 @@ namespace EnterpriseMasterSite
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton ratingToolLB;
+
+        /// <summary>
+        /// packageRetrievalForShiptrackLB control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton packageRetrievalForShiptrackLB;
     }
 }
