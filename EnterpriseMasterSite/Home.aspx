@@ -30,5 +30,7 @@
         <asp:LinkButton ID="ratingToolLB" runat="server" OnClick="ratingToolLB_Click" Text="Rating Tool" />
         <br />
         <asp:LinkButton ID="packageRetrievalForShiptrackLB" runat="server" OnClick="packageRetrievalForShiptrackLB_Click" Text="Package Retrieval For Shiptrack" />
+        <br />
+        <asp:LinkButton ID="skidTagLB" runat="server" OnClick="skidTagLB_Click" Text="Skid Tag Printing" />
     </div>
 </asp:Content>
