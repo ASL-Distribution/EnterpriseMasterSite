@@ -24,6 +24,33 @@ namespace EnterpriseMasterSite
         protected global::System.Web.UI.WebControls.Label alertL;
 
         /// <summary>
+        /// containerLB control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton containerLB;
+
+        /// <summary>
+        /// exportingLB control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton exportingLB;
+
+        /// <summary>
+        /// fileFlowLB control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton fileFlowLB;
+
+        /// <summary>
         /// managementLB control.
         /// </summary>
         /// <remarks>
@@ -31,6 +58,60 @@ namespace EnterpriseMasterSite
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton managementLB;
+
+        /// <summary>
+        /// notificationLB control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton notificationLB;
+
+        /// <summary>
+        /// packageRetrievalForShiptrackLB control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton packageRetrievalForShiptrackLB;
+
+        /// <summary>
+        /// palletLabelLB control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton palletLabelLB;
+
+        /// <summary>
+        /// pickLabelLB control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton pickLabelLB;
+
+        /// <summary>
+        /// publicAuthenticationLB control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton publicAuthenticationLB;
+
+        /// <summary>
+        /// ratingToolLB control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton ratingToolLB;
 
         /// <summary>
         /// reportingLB control.
@@ -51,49 +132,13 @@ namespace EnterpriseMasterSite
         protected global::System.Web.UI.WebControls.LinkButton scanEventUtilityLB;
 
         /// <summary>
-        /// pickLabelLB control.
+        /// skidTagLB control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton pickLabelLB;
-
-        /// <summary>
-        /// exportingLB control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton exportingLB;
-
-        /// <summary>
-        /// notificationLB control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton notificationLB;
-
-        /// <summary>
-        /// containerLB control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton containerLB;
-
-        /// <summary>
-        /// fileFlowLB control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton fileFlowLB;
+        protected global::System.Web.UI.WebControls.LinkButton skidTagLB;
 
         /// <summary>
         /// trackAndTraceLB control.
@@ -103,32 +148,5 @@ namespace EnterpriseMasterSite
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton trackAndTraceLB;
-
-        /// <summary>
-        /// ratingToolLB control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton ratingToolLB;
-
-        /// <summary>
-        /// packageRetrievalForShiptrackLB control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton packageRetrievalForShiptrackLB;
-
-        /// <summary>
-        /// skidTagLB control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton skidTagLB;
     }
 }

@@ -9,28 +9,32 @@
         </h2>        
     </div>
     <div>
+        <asp:LinkButton ID="containerLB" runat="server" OnClick="containerLB_Click" Text="Container Label Printing" />
+        <br />
+        <asp:LinkButton ID="exportingLB" runat="server" OnClick="exportingLB_Click" Text="Exporting" />
+        <br />
+        <asp:LinkButton ID="fileFlowLB" runat="server" OnClick="fileFlowLB_Click" Text="File Flow Utility" />
+        <br />
         <asp:LinkButton ID="managementLB" runat="server" OnClick="managementLB_Click" Text="Management" />
+        <br />
+        <asp:LinkButton ID="notificationLB" runat="server" OnClick="notificationLB_Click" Text="Notifications" />
+        <br />
+        <asp:LinkButton ID="packageRetrievalForShiptrackLB" runat="server" OnClick="packageRetrievalForShiptrackLB_Click" Text="Package Retrieval For Shiptrack" />
+        <br />
+        <asp:LinkButton ID="palletLabelLB" runat="server" OnClick="palletLabelLB_Click" Text="Pallet Label Printing" />
+        <br />
+        <asp:LinkButton ID="pickLabelLB" runat="server" OnClick="pickLabelLB_Click" Text="Pick Label Printing" />
+        <br />
+        <asp:LinkButton ID="publicAuthenticationLB" runat="server" OnClick="publicAuthenticationLB_Click" Text="Public Authentication" />
+        <br />
+        <asp:LinkButton ID="ratingToolLB" runat="server" OnClick="ratingToolLB_Click" Text="Rating Tool" />
         <br />
         <asp:LinkButton ID="reportingLB" runat="server" OnClick="reportingLB_Click" Text="Reporting" />
         <br />
         <asp:LinkButton ID="scanEventUtilityLB" runat="server" OnClick="scanEventUtilityLB_Click" Text="Scan Event Utility" />
         <br />
-        <asp:LinkButton ID="pickLabelLB" runat="server" OnClick="pickLabelLB_Click" Text="Pick Label Printing" />
-        <br />
-        <asp:LinkButton ID="exportingLB" runat="server" OnClick="exportingLB_Click" Text="Exporting" />
-        <br />
-        <asp:LinkButton ID="notificationLB" runat="server" OnClick="notificationLB_Click" Text="Notifications" />
-        <br />
-        <asp:LinkButton ID="containerLB" runat="server" OnClick="containerLB_Click" Text="Container Label Printing" />
-        <br />
-        <asp:LinkButton ID="fileFlowLB" runat="server" OnClick="fileFlowLB_Click" Text="File Flow Utility" />
+        <asp:LinkButton ID="skidTagLB" runat="server" OnClick="skidTagLB_Click" Text="Skid Tag Printing" />
         <br />
         <asp:LinkButton ID="trackAndTraceLB" runat="server" OnClick="trackAndTraceLB_Click" Text="Track and Trace" />
-        <br />
-        <asp:LinkButton ID="ratingToolLB" runat="server" OnClick="ratingToolLB_Click" Text="Rating Tool" />
-        <br />
-        <asp:LinkButton ID="packageRetrievalForShiptrackLB" runat="server" OnClick="packageRetrievalForShiptrackLB_Click" Text="Package Retrieval For Shiptrack" />
-        <br />
-        <asp:LinkButton ID="skidTagLB" runat="server" OnClick="skidTagLB_Click" Text="Skid Tag Printing" />
     </div>
 </asp:Content>

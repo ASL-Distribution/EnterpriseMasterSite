@@ -105,5 +105,17 @@ namespace EnterpriseMasterSite
             string token = Authentication.SetToken(this);
             Response.Redirect("http://10.10.101.113/SkidTags/Landingpage.aspx?token=" + token);
         }
+
+        protected void palletLabelLB_Click(object sender, EventArgs e)
+        {
+            string token = Authentication.SetToken(this);
+            Response.Redirect("http://10.10.101.113/PalletLabels/Landingpage.aspx?token=" + token);
+        }
+
+        protected void publicAuthenticationLB_Click(object sender, EventArgs e)
+        {
+            string token = Authentication.SetToken(this);
+            Response.Redirect("http://10.10.101.113/PublicAuthenticationPortal/Landingpage.aspx?token=" + token);
+        }
     }
 }
